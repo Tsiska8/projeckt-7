@@ -4,25 +4,19 @@
   }
 
   body {
-    background: #F5F5F5;
+    background: #FFFFFF;
     width: 100%;
   }
 
   
   .box {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-
     background: #FFFFFF;
+    width: 1223px;
+
+    margin: 0 auto;
   }
 
   h2 {
-    width: 148px;
-    height: 24px;
-    padding-top: 35px;
-    margin-left: 109px;
-    
     font-family: FiraGO;
     font-style: normal;
     font-weight: 700;
@@ -33,14 +27,11 @@
  }
 
  table {
+   border-collapse: collapse;
    box-sizing: border-box;
-
    border-spacing:0px;
 
-   width: 1223px;
-   margin-top: 89px;
-   margin-right: 108px;
-   margin-left:109px;;
+   width:100%;
 
    background: #FFFFFF;
    border: 1px solid #EDEDED;
@@ -48,12 +39,7 @@
 
  .table-row1 {
     box-sizing: border-box;
-
-    width: 1223px;
     height: 65px;
-    margin-right:108px;
-    margin-left: 109px;
-    margin-top: 89px;
 
     font-family:FiraGO;
     font-style: normal;
@@ -70,7 +56,6 @@
 
    .table-row2 {
     box-sizing: border-box;
-   
     padding: 10px;
 
     background: #FAFAFA;
@@ -147,16 +132,10 @@
 }
 
 form {
-   display: flex;
-   justify-content: space-between; 
+   display: flex; 
 }
 
  h2 {
-   width: 106px;
-   height: 24px;
-   margin-top: 68px;
-   margin-left: 110px;
-
    font-family: Firago;
    font-style: normal;
    font-weight: 700;
@@ -169,16 +148,11 @@ form {
  .btn {
     width: 141px;
     height: 40px;
-    margin-top: 68px;
-    margin-right: 108px;
-    margin-bottom: 21px;
 
     background: #FFDD04;
     border-radius: 10px;
     border: 1px solid transparent;
 
-    
-    
     font-family: FiraGO;
     font-style: normal;
     font-weight: 700;
@@ -190,12 +164,7 @@ form {
 
  .table-row3 {
     box-sizing: border-box;
-
-    width: 1223px;
     height: 65px;
-    margin-right:108px;
-    margin-left: 109px;
-    margin-top: 29px;
 
    font-family: FiraGO;
    font-style: normal;
@@ -208,13 +177,8 @@ form {
 
  .table-row4 {
    box-sizing: border-box;
-
-   width: 1223px;
    height: 65px;
-   margin-right:108px;
-   margin-left: 109px;
 
    background: #FAFAFA;
    border: 1px solid #EDEDED;
-
  }
