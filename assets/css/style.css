@@ -8,6 +8,9 @@
     width: 100%;
   }
 
+  *{
+   box-sizing: border-box;
+  }
   
   .box {
     background: #FFFFFF;
@@ -28,17 +31,10 @@
 
  table {
    border-collapse: collapse;
-   box-sizing: border-box;
-   border-spacing:0px;
-
    width:100%;
-
-   background: #FFFFFF;
-   border: 1px solid #EDEDED;
 }
 
  .table-row1 {
-    box-sizing: border-box;
     height: 65px;
 
     font-family:FiraGO;
@@ -55,72 +51,49 @@
  }
 
    .table-row2 {
-    box-sizing: border-box;
-    padding: 10px;
-
     background: #FAFAFA;
     border: 1px solid #EDEDED;
-    text-align: center;
+    height: 84px;
+    padding-left:25px;
+    
  }
 
+ ::placeholder {
+   padding-left:24px;
+ }
  
-.first-child {
-   box-sizing: border-box;
+.input_1{
+   width: 359px;
+   height: 50px;
+   background: #FFFFFF;
+   border: 1px solid #ECECEC;
+   border-radius: 10px;
+}
+
+.input_2 {
    background: #FFFFFF;
    border: 1px solid #ECECEC;
    border-radius: 10px;
 
-   width: 250px;
+   width: 266px;
    height: 50px;
+   }
 
-   margin-top: 17px;
-   margin-right: 47px;
-   margin-bottom: 17px;
-   margin-left: 25px;
-}
-
-.child-2 {
-   box-sizing: border-box;
-
+.input_3 {
    background: #FFFFFF;
    border: 1px solid #ECECEC;
    border-radius: 10px;
 
-   width: 160px;
+   width: 217px;
    height: 50px;
-   margin-top: 17px;
-   margin-right: 50px;
-   margin-bottom: 17px;
-   margin-left: 47px;
 }
 
-.child-3 {
-   box-sizing: border-box;
-
-   background: #FFFFFF;
-   border: 1px solid #ECECEC;
-   border-radius: 10px;
-
-   width: 100px;
-   height: 50px;
-   margin-top: 17px;
-   margin-right: 79px;
-   margin-bottom: 17px;
-   margin-left: 50px;
-}
-
-.last-child {
-   box-sizing: border-box;
-
-   width: 70px;
-   height: 50px;
-   margin-top: 17px;
-   margin-right: 39px;
-   margin-bottom: 17px;
-   margin-left: 79px;
-
+.input_4{
    background: #FFDD04;
    border-radius: 10px;
+   border: 0px;
+   width: 141px;
+   height: 50px;
 
    font-family:FiraGO;
    font-style: normal;
@@ -136,6 +109,8 @@ form {
 }
 
  h2 {
+   width: 106px;
+   margin-top: 72px;
    font-family: Firago;
    font-style: normal;
    font-weight: 700;
@@ -145,9 +120,11 @@ form {
    color: #000000;
  }
 
- .btn {
+ .btn_1 {
     width: 141px;
     height: 40px;
+    margin-left: 975px;
+    margin-top: 64px;
 
     background: #FFDD04;
     border-radius: 10px;
@@ -163,8 +140,9 @@ form {
  }
 
  .table-row3 {
-    box-sizing: border-box;
-    height: 65px;
+   background: #FFFFFF;
+   border: 1px solid #EDEDED;
+   height: 65px;
 
    font-family: FiraGO;
    font-style: normal;
@@ -175,10 +153,43 @@ form {
    color: #000000;
  }
 
- .table-row4 {
-   box-sizing: border-box;
-   height: 65px;
+ tbody, tr, td{
+   padding: 12px;
 
    background: #FAFAFA;
-   border: 1px solid #EDEDED;
+   border: 0px solid #EDEDED;
+ }
+ 
+ .btn_2 {
+   background: #FF8271;
+   border-radius: 10px;
+   border: 0px;
+
+   width: 93px;
+   height: 33px;
+
+   font-family: 'FiraGO';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 18px;
+   
+   color: #000000;   
+ }
+
+ .btn_3 {
+   background: #FFDD04;
+   border-radius: 10px;
+   border: 0px;
+
+   width: 93px;
+   height: 33px;
+
+   font-family: 'FiraGO';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 18px;
+
+   color: #000000;
  }
