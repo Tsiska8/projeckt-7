@@ -59,7 +59,7 @@
  }
 
  ::placeholder {
-    padding-left:24px;
+   
     font-family: 'FiraGO';
     font-style: normal;
     font-weight: 400;
@@ -163,8 +163,9 @@ form {
    color: #000000;
  }
 
- tbody, tr, td{
+ tbody,tr, td{
    padding: 12px;
+   padding-left: 25px;
 
    background: #FAFAFA;
    border: 0px solid #EDEDED;
@@ -186,7 +187,7 @@ form {
    width: 93px;
    height: 33px;
 
-   font-family: 'FiraGO';
+   font-family: FiraGO;
    font-style: normal;
    font-weight: 700;
    font-size: 15px;
@@ -203,7 +204,7 @@ form {
    width: 93px;
    height: 33px;
 
-   font-family: 'FiraGO';
+   font-family: FiraGO;
    font-style: normal;
    font-weight: 700;
    font-size: 15px;
